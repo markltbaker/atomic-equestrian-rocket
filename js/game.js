@@ -126,7 +126,7 @@
         init: function() {           
             this.requires('Renderable, Fourway, Collision, ViewportBounded')
                 .spriteName('rocket')
-                .attr({x: 64, y: 64,w:199, h:96})
+                .attr({x: 64, y: 64})
                 // set the speed and controls
                 .fourway(5)
                 // create a custom hit map here:
